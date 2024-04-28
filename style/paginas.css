@@ -1,0 +1,38 @@
+body {
+  background-color: #adb630;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+main > a > img {
+  width: 400px;
+}
+.recipes-container {
+  width: 800px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 2.5px solid #f00;
+}
+.ingredientes > span {
+  font-size: 30px;
+}
+.colorOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 850px;
+  height: 950px;
+  background-color: #00f;
+  border-radius: 10px;
+}
